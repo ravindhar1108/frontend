@@ -224,7 +224,7 @@ const FormFill = () => {
                                         <input
                                             type="text"
                                             value={responses.aiInput || ""}
-                                            placeholder="Say the following details required to fill the form"
+                                            placeholder="Provide your details in a sentence"
                                             onChange={(e) => handleChange("aiInput", e.target.value, "text")}
                                             className="form-control"
                                         />
